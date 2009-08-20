@@ -1,0 +1,7 @@
+#!/bin/sh
+# inatra:
+#   offline executer of sh.inatra scripts
+
+echo '(offline mode: enter "method uri" on standard input)'
+read method uri
+REQUEST_METHOD=$method REQUEST_URI=$uri SCRIPT_NAME= bash $1
