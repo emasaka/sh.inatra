@@ -4,7 +4,8 @@ CGI shell script framework looks like sinatra.
 
 == Description
 
-sh.inatra is a Web CGI application framework for bash script.
+sh.inatra is a Web CGI application framework for bash script,
+made by "pure bash".
 It's a parody of "sinatra" in Ruby.
 
 sh.inatra is just a joke soft (but it works!),
