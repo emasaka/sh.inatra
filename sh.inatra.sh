@@ -115,7 +115,7 @@ function shinatra::send_response() {
     if [ -n "$routing_matched" ]; then
 	echo -n "Status: $RESPONSE_STATUS"
 	response.newline
-	echo -n "Content-Type: $RESPONSE_CONTENT_TYPE; $RESPONSE_CHARSET"
+	echo -n "Content-Type: $RESPONSE_CONTENT_TYPE; charset=$RESPONSE_CHARSET"
 	response.newline
 	if [ -n "$RESPONSE_LOCATION" ]; then
 	    echo -ne "Location: $RESPONSE_LOCATION"
